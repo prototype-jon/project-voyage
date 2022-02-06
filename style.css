@@ -12,11 +12,36 @@ html {
 	background-size:  cover;
 }
 
+a{
+	color: rebeccapurple;
+}
+
+a:hover{
+	color:  purple;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
 }
 
-.navbar {
-	margin-bottom: 2em;
+.box-margin {
+	margin-top: 4em;
+	margin-bottom: 4em;
 }
+
+.form-margin {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.btn-primary{
+	background-color: darkslateblue;
+	border-color: whitesmoke;
+}
+
+.btn-primary:hover{
+	background-color: rebeccapurple;
+	border-color: whitesmoke;
+}
+
